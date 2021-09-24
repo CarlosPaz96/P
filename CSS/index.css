@@ -1,0 +1,79 @@
+@font-face {
+    font-family: ff;
+    src: url("/font/Roboto-Regular.ttf") format("opentype");
+}
+
+body{
+    padding: 0px;
+    margin: 0ch;
+    border: 0ch;
+    background: #252830;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    font-family: ff;
+}
+
+input{
+    font-family: ff;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 15% 85%;
+    height: 80vh;
+}
+
+/** input AddTask**/
+
+.AddTask{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.AddTask input{
+    width: 85%;
+}
+.AddTask button{
+    width: 10%;
+    background: rgb(45, 105, 235);
+    color: #fff;
+}
+
+/**Div lista**/
+
+.Lista{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    overflow:auto;
+}
+
+.Lista .DivHijo input{
+    width: 75%;
+    height: 1.5em;
+}
+
+.Lista .DivHijo button{
+    width: 10%;
+    height: 2em;
+    margin: 0ch;
+    padding:0ch;
+}
+
+.btnChek{
+    background: rgb(25, 163, 25);
+}
+
+.btnEliminar{
+    background: rgb(206, 0, 0);
+}
