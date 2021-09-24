@@ -23,6 +23,10 @@ input{
     font-family: ff;
 }
 
+.Desac{
+    text-decoration: line-through;
+}
+
 .contenedor{
     display: grid;
     grid-template-columns: 25% 50% 25%;
