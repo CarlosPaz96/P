@@ -81,3 +81,19 @@ input{
 .btnEliminar{
     background: rgb(206, 0, 0);
 }
+
+/*----------------- Media Query (responsive) -----------------*/
+
+@media (max-width: 720px) {
+    .contenedor{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+    }
+    .AddTask input{
+        width: 80%;
+    }
+    .Lista .DivHijo input{
+        width: 70%;
+        height: 1.5em;
+    }
+}
